@@ -53,9 +53,6 @@ func (g *Game) Update() error {
 			if N == 2 || N == 3 {
 				alive = true
 			}
-			if N == 3 {
-				alive = true
-			}
 			g.grid[y][x] = alive
 		}
 	}
